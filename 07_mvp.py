@@ -133,6 +133,7 @@ def get_locality_from_pdf(filename):
         return legacy_match.group(1)
 
     return None
+#---#
 
 # --- Original legend cropper (contour-based) ---
 def crop_legend(image):
